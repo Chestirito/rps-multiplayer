@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>
+        
+    </title>
+    <!-- local style  -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- responsive inspection  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- boostrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- jquery  -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- local js  -->
+    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+    <!-- firebase  -->
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title">
+                    <h1>R-P-S Multiplayer!</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="gameStatus">
+                    <div class="input-group inputName">
+                        <input type="text" class="form-control nameBar" placeholder="Name...">
+                        <span class="input-group-btn">
+                            <button id="joinBtn" class="btn btn-default btn-primary" type="button">Join</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="player1" class="col plSections rounded">
+                <div class="playerBox playerBox1">
+                    <div class="name1 name">
+                        
+                    </div>
+                    <div class="options1 options">
+                        <div id="choices1" class="choices">
+                            <button type="button" class="btn btn-primary selection" id="r">Rock</button>
+                            <button type="button" class="btn btn-primary selection" id="p">Paper</button>
+                            <button type="button" class="btn btn-primary selection" id="s">Scissors</button>
+                        </div>
+                        <div id="chosen1" class="chosen">
+                            <h2></h2>
+                        </div>
+                    </div>
+                    <div class="result1 result">
+                        Wins: <span class="p1Wins">0</span>
+                        Lose: <span class="p1Loses">0</span>
+                    </div>
+                </div>
+                <div class="waiting1 waiting">
+                    Waiting For Player
+                </div>
+            </div>
+            <div class="col">
+                <div class="outcome rounded">
+                    Win/Lose
+                </div>
+            </div>
+            <div id="player2" class="col plSections rounded">
+                <div class="playerBox playerBox2">
+                    <div class="name2 name">
+                        
+                    </div>
+                    <div class="options2 options">
+                        <div id="choices2" class="choices">
+                            <button type="button" class="btn btn-primary selection" id="r">Rock</button>
+                            <button type="button" class="btn btn-primary selection" id="p">Paper</button>
+                            <button type="button" class="btn btn-primary selection" id="s">Scissors</button>
+                        </div>
+                        <div id="chosen2" class="chosen">
+                            <h2></h2>
+                        </div>
+                    </div>
+                    <div class="result2 result">
+                        Wins: <span class="p2Wins">0</span>
+                        Lose: <span class="p2Loses">0</span>
+                    </div>
+                </div>
+                <div class="waiting2 waiting">
+                    Waiting For Player
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="chatBox">
+                    <div class="texts border">
+
+                    </div>
+                    <form class="input-group messageInput">
+                        <input type="text" class="form-control message" placeholder="Message...">
+                        <span class="input-group-btn">
+                            <button id="sendBtn" class="btn btn-default btn-primary" type="submit">Send</button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+
+
+</body>
+
+</html>

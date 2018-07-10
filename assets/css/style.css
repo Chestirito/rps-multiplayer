@@ -1,0 +1,51 @@
+.title{
+    text-align: center;
+}
+.texts{
+    overflow-y: scroll;
+    height: 10em;
+    width: 100%;
+}
+.options{
+    height: 70%;
+    padding-top:20%;
+}
+.gameStatus{
+    height: 3em;
+}
+.chosen{
+    font-size: 200%;
+    max-height: 15em;
+}
+.outcome h2{
+    margin-top: 20%;
+}
+.outcome h3{
+    font-size: 200%;
+}
+.waiting{
+    max-height: 15em;
+    font-size: 200%;
+    margin-top: 25%;
+}
+.playerBox{
+    height: 15em;
+}
+.plSections{
+    border: solid grey 4px;
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    font-size: 200%;
+}
+.outcome{
+    border: solid grey 4px;
+    height: 16em;
+    text-align: center;
+}
+.chatBox{
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 50%;
+}
