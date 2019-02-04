@@ -3,8 +3,9 @@
 ## Overview
 - Realtime R-P-S online multiplayer game
 - This game app requires two instances open wether on the same browser different systems
+- Used Firebase for realtime operations
 
-## Instructions
+## Game Instructions
 - Players join by typing in an username
 - If there's 2 player in the room the game will start
 - Players make their selection
